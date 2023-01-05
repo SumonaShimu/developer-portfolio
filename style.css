@@ -1,0 +1,41 @@
+.text {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.orange {
+    color: #FD6E0A;
+}
+
+.orange-btn{
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0px;
+    padding: 18px 35px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
