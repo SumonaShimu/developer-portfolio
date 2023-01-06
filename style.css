@@ -1,8 +1,12 @@
-.text {
+* {
     font-family: 'Open Sans', sans-serif;
-
 }
-
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 .orange {
     color: #FD6E0A;
 }
@@ -39,4 +43,26 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+}
+/* banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    justify-content: space-between;
+}
+.ban-description{
+    color: #757575;
+    font-size: 18px;
+}
+.contact-btn{
+    height: 66px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 15px 35px;
+    text-align: center;
+    margin-left: 20px;
 }
