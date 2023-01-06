@@ -8,14 +8,15 @@
 }
 
 .orange-btn{
-    height: 64px;
+    height: 66px;
     font-weight: 700;
     font-size: 20px;
     color: white;
     background: #FD6E0A;
     border-radius: 5px;
     border: 0px;
-    padding: 18px 35px;
+    padding: 15px 35px;
+    text-align: center;
 }
 
 .nav-title {
